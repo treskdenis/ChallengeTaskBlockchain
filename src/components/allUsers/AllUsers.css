@@ -1,0 +1,45 @@
+.App {
+  padding: 4rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-box {
+  outline: none;
+  width: 100%;
+  border: 1px solid grey;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+.first-container {
+	display: flex; 
+	flex-flow: row wrap; 
+	align-items: center; 
+	justify-content: space-between;
+}
+
+.styled-link {
+	padding: 11px 5%;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	border: none;
+	border-radius: 100px 100px 100px 100px;
+	cursor: pointer;
+	transition: all, 240ms ease-in-out;
+	background: rgb(241, 196, 15);
+	background: linear-gradient(
+	58deg,
+	rgba(241, 196, 15, 1) 20%,
+	rgba(243, 172, 18, 1) 100%
+	);
+
+	&:hover {
+	filter: brightness(1.03);
+	}
+}
